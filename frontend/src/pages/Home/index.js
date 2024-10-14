@@ -1,18 +1,17 @@
-import { Layout } from "antd"
-import Headers from "../../components/Header"
-const {Header, Footer , Content} = Layout
+import "../../assets/css/base.css"
+import Banner from "../../components/Banner"
+import Brand from "../../components/HomeCompos/Brand"
+import Product from "../../components/HomeCompos/Products"
+import "./Home.scss"
+
 const Home = () => {
    return (
     <>
-        <Layout>
-            <header>
-                <Headers/>
-            </header>
-            <Content>
-                
-            </Content>
-            <footer>foot</footer>
-        </Layout>
+        <div className="home">
+                <Banner/>
+                <Brand/>
+                <Product/>
+        </div>
     </>
    ) 
 }
