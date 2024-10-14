@@ -1,8 +1,13 @@
 import { Button, Col, Input, Row } from "antd";
 import "./Category.scss"
 import ToolComponent from "../../components/ToolComponent";
-
+import TableCategory from "../../components/Table/TableCategory";
+import { useEffect, useState } from "react";
+import "../../services/users"
+import { listUser } from "../../services/users";
 const Category = ()=>{
+    
+    
     return (
         <>
            <div className="container">
@@ -21,7 +26,7 @@ const Category = ()=>{
 
                 <Row>
                     <Col span={24}>
-                        
+                        <TableCategory/>
                     </Col>
                 </Row>
            </div>

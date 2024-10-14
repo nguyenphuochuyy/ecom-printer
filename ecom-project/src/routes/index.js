@@ -8,7 +8,7 @@ export const routes = [
     {
         path : "/",
         
-        element : <DashBoard></DashBoard>,
+        element : <DashBoard/>,
         children : [
             {
                 path : "/dashboard",
