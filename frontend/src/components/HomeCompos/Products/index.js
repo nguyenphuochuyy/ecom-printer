@@ -8,8 +8,10 @@ const Product = ()=>{
                 <h2>PRODUCT</h2>
                 <Button style={{width : 100}} type="primary" className="brand__btn">View all</Button>
             </div>
-            
+            <div  style={{display: 'flex' , flexWrap : 'wrap'}}>
             <ProductItem/>
+            </div>
+            
         </>
     )
 }
